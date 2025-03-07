@@ -5,7 +5,7 @@ class Task {
         this.description = description;
         this.status = "Pendente";
         this.priority = priority; // Prioridade da tarefa
-        this.dueDate = dueDate ? new Date(dueDate) : null; // Data de vencimento (opcional)
+        this.dueDate = dueDate ? new Date(dueDate) : null; 
     }
 
     static incrementId() {
