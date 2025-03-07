@@ -4,7 +4,7 @@ class Task {
         this.title = title;
         this.description = description;
         this.status = "Pendente";
-        this.priority = priority; // Prioridade da tarefa
+        this.priority = priority; 
         this.dueDate = dueDate ? new Date(dueDate) : null; 
     }
 
@@ -38,7 +38,7 @@ class TaskManager {
                 const task = new Task(title, description, priority, dueDate);
                 this.tasks.push(task);
                 resolve(task);
-            }, 2000); // Simula um atraso de 2 segundos
+            }, 
         });
     }
 
