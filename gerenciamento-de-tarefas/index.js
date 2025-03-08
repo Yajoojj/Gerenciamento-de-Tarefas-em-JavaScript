@@ -38,7 +38,7 @@ class TaskManager {
                 const task = new Task(title, description, priority, dueDate);
                 this.tasks.push(task);
                 resolve(task);
-            }, 
+            }, 2000);
         });
     }
 
