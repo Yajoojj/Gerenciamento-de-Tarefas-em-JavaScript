@@ -22,7 +22,7 @@ Este é um sistema de gerenciamento de tarefas simples, criado em **JavaScript**
 1. **Clone o repositório** para sua máquina local:
 
     ```bash
-    git clone https://github.com/seu-usuario/gerenciamento-tarefas-js.git
+    git clone https://github.com/Yajoojj/gerenciamento-tarefas-js.git
     ```
 
 2. **Abra o arquivo** `index.html` no seu navegador, ou se preferir, execute o código diretamente em um ambiente de desenvolvimento JavaScript como o [JSFiddle](https://jsfiddle.net/) ou [CodePen](https://codepen.io/).
